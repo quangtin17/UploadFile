@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.row {
+  position: relative;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(0, 206, 79);
+  border-radius: 5px;
+  border: 1px solid #fff;
+  outline: none;
+  font-weight: 800;
+  color: #fff;
+}
+input[type="file"] {
+  font-size: 15px;
+  font-weight: 600;
+}
